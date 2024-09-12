@@ -1,6 +1,6 @@
 version: 1.0.0
 
-name: Starling-LM-7B-alpha-GPTQ
+name: dolphin-2.5-mixtral-8x7b-GPTQ
 import_source: GIT
 
 # you can choose the options between ONNX, TENSORFLOW, PYTORCH
@@ -40,6 +40,6 @@ optional:
   input_file_name: input.json
   output_file_name: output.json
   runtime_file_name: inferless-runtime-config.yaml
-model_url: https://github.com/inferless/Starling-LM-7B-alpha-GPTQ.git
+model_url: https://github.com/inferless/dolphin-2.5-mixtral-8x7b-GPTQ.git
 provider: GITHUB
 io_schema: true
